@@ -16,21 +16,21 @@ I have difficulty finding a dataset containing example epithets (See Issue 1). A
 
 
 ### Summary / Issues:
-# 1. No great public data set for epithets.
+#### 1. No great public data set for epithets.
 To start the project I need a data set to create the probability distribution for the transitions in my Markov chain. After not finding a data set, my second idea was that I could just write out thousands of epithets myself. I quickly scrapped that idea because I don't have that much free time (Technically I do, but I don't wishto spend it doing that). Also, if I wanted to just create my own epithets why would I be trying to generate them?! One possible workaround I've thought of would be to download PDF versions of the Game of Thrones books, extracting text from the PDFs, using Natural Language Text Processing to extract sentences containing names/epithets, and building a data base of character names mapped to their epithets
 
 
 ### Plan of Attack:
-# 1. Scrape wiki of character names
-# 2. Save scrapped names to database
-# 3. Using pandas, insert character names into a Trie
-# 4. Find PDFs of Game of Thrones books
-# 5. Use trie to extract sentences containing names
-# 6. Manually search sentences for epithets
-# 7. Create epithet Database
-# 8. Create code to procedurally generate epithets using Markov Chains
-# 9. See if I actually like the generated epithets.
-# 10. Iteratively improve project
+#### 1. Scrape wiki of character names
+#### 2. Save scrapped names to database
+#### 3. Using pandas, insert character names into a Trie
+#### 4. Find PDFs of Game of Thrones books
+#### 5. Use trie to extract sentences containing names
+#### 6. Manually search sentences for epithets
+#### 7. Create epithet Database
+#### 8. Create code to procedurally generate epithets using Markov Chains
+#### 9. See if I actually like the generated epithets.
+#### 10. Iteratively improve project
 ### How to Use:
 
 
