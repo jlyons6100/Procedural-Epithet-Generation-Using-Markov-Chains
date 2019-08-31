@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import sqlite3
-
+# Generating Random Initial epithets based on format of GoT epithets
+# Handpicked which epithets were good enough to be inserted in database
 nicknames = []
 materials = ['Stone','Steel','Wood','Dirt','Shadow','Wind']
 directions = ['West','North','South','East']
